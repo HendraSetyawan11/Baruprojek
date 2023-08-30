@@ -1,0 +1,75 @@
+html {
+  background-color: rgb(191, 236, 247);
+}
+
+body 
+{background-image: url(mechanical3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background: rgba (0,0,0,0.15)
+}
+{
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: rgb(251, 253, 250);
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.tulisan_satu {
+  color: black;
+font-size: 35px;
+font-style: bold ;
+font-style: italic;
+text-decoration: lightcoral;
+}
+
+.tulisan_dua {
+  color: black;
+font-size: 40px;
+font-style: bold ;
+text-decoration: lightcoral;}
+
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: rgb(50, 173, 50);
+  color: rgb(2, 2, 2);
+  text-transform: uppercase;
+  text-align: center;
+}
+{}
+/* tambahkan CSS untuk section profile disini */
